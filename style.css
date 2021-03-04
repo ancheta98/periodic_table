@@ -20,6 +20,9 @@ h1{
     flex-direction: row;
     align-items: flex-end;
 }
+#alkali .tile{
+    background: lightcoral;
+}
 .tile{
     display: flex;
     flex-direction: column;
@@ -35,12 +38,24 @@ h1{
     display: flex;
     align-items: flex-end;
 }
+#transition .tile{
+    background: lightskyblue
+}
 #metalloids{
     display: flex;
     align-items: flex-end;
 }
+#metalloids .tile{
+    background: lightgreen;
+}
+#noble .tile{
+    background: royalblue;
+}
 #nides{
     margin-top: 25px;
+}
+#nides .tile{
+    background: cyan
 }
 .row{
     display: flex;
