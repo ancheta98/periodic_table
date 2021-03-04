@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#elemTable{
+    max-width: 90vw;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#primaryTable{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+#alkali{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.tile{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+.tile b {
+    margin-bottom: 5px;
+}
+#transition{
+    display: flex;
+    align-items: flex-end;
+}
+#metalloids{
+    display: flex;
+    align-items: flex-end;
+}
+#nides{
+    margin-top: 25px;
+}
+.row{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
