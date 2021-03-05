@@ -7,6 +7,12 @@
     padding: 0;
     font-family: ScienceFair;
 }
+/* .hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+} */
 #elemTable{
     max-width: 90vw;
     margin: auto;
@@ -120,9 +126,6 @@ footer i:hover{
         display: flex;
         flex-direction: row;
     }
-    .break{
-        display: flex;
-    }
     #nides{
         display: flex;
         flex-wrap: nowrap;
@@ -139,6 +142,54 @@ footer i:hover{
 
   }
 
+  @media only screen and (max-width: 800px) {
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+      #alkali{
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+      #metalloids{
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+      }
+      #transition{
+          flex-direction: row;
+          align-items: center;
+          flex-wrap: wrap;
+          max-width: 100vw;
+          justify-content: center;
+
+      }
+      #noble .column{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+
+  }
+
   /* @media only screen and (max-width: 640px) {
-      small screens
+      #elemTable{
+            display: block;
+            overflow-y: auto;
+            overflow-x: hidden;
+            transform: rotate(-90deg);
+            transform-origin: right top;
+            min-height: 100vh;
+            transform:rotate(-90deg) translateY(-100px);
+            transform-origin:right top;
+      }
+      #elemTable >div {
+          
+        transform: rotate(90deg);
+        transform-origin: right top;
+      }
   } */
