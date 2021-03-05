@@ -1,7 +1,11 @@
+@font-face{
+    font-family: ScienceFair;
+    src: url(./science_fair/Science\ Fair.otf);
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: ScienceFair;
 }
 #elemTable{
     max-width: 90vw;
@@ -9,6 +13,9 @@
 }
 h1{
     text-align: center;
+}
+p{
+    font-size: small;
 }
 #primaryTable{
     display: flex;
@@ -32,7 +39,8 @@ h1{
     text-align: center;
 }
 .tile b {
-    margin-bottom: 5px;
+    font-size: 1.5em;
+    margin: 5px 0;
 }
 #transition{
     display: flex;
@@ -63,6 +71,10 @@ h1{
     justify-content: center;
 }
 .tile{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
     transition: transform .2s;
 }
 .tile:hover{
@@ -103,6 +115,7 @@ footer i:hover{
         flex-direction: column;
         align-items: center;
     }
+    /* make columns into rows */
     .column{
         display: flex;
         flex-direction: row;
@@ -120,6 +133,12 @@ footer i:hover{
     }
     .tile{
         margin: 10px;
+        width: 100px;
+        height: 100px;
     }
 
   }
+
+  /* @media only screen and (max-width: 640px) {
+      small screens
+  } */
