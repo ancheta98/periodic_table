@@ -66,9 +66,22 @@ h1{
     transition: transform .2s;
 }
 .tile:hover{
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.75);
 }
-
+footer{
+    margin-top: 15px;
+    text-align: center;
+}
+footer a{
+    font-size: x-large;
+}
+footer i{
+    transition: transform .2s;
+    margin-top: 10px;
+}
+footer i:hover{
+    transform: scale(1.9);
+  }
 @media only screen and (max-width: 1500px) {
     #primaryTable {
       flex-direction: column;
